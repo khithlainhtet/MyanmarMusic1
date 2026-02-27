@@ -54,7 +54,7 @@ async def settings_mar(client, message: Message, _):
 @languageCB
 async def gib_repo(client, CallbackQuery, _):
     await CallbackQuery.edit_message_media(
-        InputMediaVideo("https://files.catbox.moe/hecysc.mp4"),
+        InputMediaVideo("https://files.catbox.moe/sa26q5.mp4"),
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data=f"settingsback_helper")]]
         ),
@@ -108,17 +108,18 @@ async def settings_back_markup(client, CallbackQuery: CallbackQuery, _):
         # --- START_TEXT Definition ---
         # Callback ဖြစ်တဲ့အတွက် CallbackQuery.from_user.mention ကိုသုံးထားပါတယ်
         START_TEXT = f"""
-<emoji id="{PREMIUM_EMOJI_4}">😂</emoji> ʜᴇʏ ʙᴀʙʏ : {CallbackQuery.from_user.mention} <emoji id="{PREMIUM_EMOJI_1}">🥺</emoji>
-<emoji id="{PREMIUM_EMOJI_5}">😂</emoji> ɪ ᴀᴍ {app.mention}, ʜᴇʀᴇ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴡɪᴛʜ ᴀ ꜱᴍᴏᴏᴛʜ ᴍᴜꜱɪᴄ ꜱᴛʀᴇᴀᴍɪɴɢ ᴇxᴘᴇʀɪᴇɴᴄᴇ <emoji id="{PREMIUM_EMOJI_2}">🤩</emoji>.
+<emoji id="{PREMIUM_EMOJI_4}">➻</emoji> ʜᴇʏ ʙᴀʙʏ : {CallbackQuery.from_user.mention} <emoji id="{PREMIUM_EMOJI_1}">🤍</emoji>
+<emoji id="{PREMIUM_EMOJI_5}">➻</emoji> ကျွန်တော်ကတော့ { {app.mention} ဖြစ်ပါတယ်။,FERIEND တိုအတွက် အကောင်းဆုံးနဲ့ အကြည်လင်ဆုံး တေးဂီတတွေကို ဖျော်ဖြေပေးသွားပါမယ်ခင်ဗျာ။<emoji id="{PREMIUM_EMOJI_2}">🤍</emoji>.
 
-<emoji id="{PREMIUM_EMOJI_6}">😂</emoji> ғᴇᴀᴛᴜʀᴇs
-<emoji id="{PREMIUM_EMOJI_7}">🥺</emoji> ʜǫ ᴀᴜᴅɪᴏ : 320ᴋʙᴘs sᴛʀᴇᴀᴍɪɴɢ
-<emoji id="{PREMIUM_EMOJI_8}">😂</emoji> sᴛʀᴇᴀᴍ sᴜᴘᴘᴏʀᴛ : ᴀᴜᴅɪᴏ-ᴠɪᴅᴇᴏ
-<emoji id="{PREMIUM_EMOJI_9}">😂</emoji> 24-7 ᴜᴘᴛɪᴍᴇ : ᴇɴᴛᴇʀᴘʀɪsᴇ ʀᴇʟɪᴀʙɪʟɪᴛʏ
-<emoji id="{PREMIUM_EMOJI_10}">😂</emoji> ᴘʟᴀʏ ᴄᴏᴍᴍᴇɴᴛꜱ : ᴘʟᴀʏ, ᴠᴘʟᴀʏ 
-<emoji id="{PREMIUM_EMOJI_11}">😂</emoji> ʙᴀsᴇᴅ ᴏɴ : ʏᴏᴜᴛᴜʙᴇ ᴀᴘɪ
+<emoji id="{PREMIUM_EMOJI_6}">🌟</emoji> ꜰᴇᴀᴛᴜʀᴇs (လုပ်ဆောင်ချက်များ)
+<emoji id="{PREMIUM_EMOJI_7}">➻</emoji>  🔊 ʜǫ ᴀᴜᴅɪᴏ : အဆင့်မြင့် အသံထွက်စနစ်
+<emoji id="{PREMIUM_EMOJI_8}">➻</emoji> 🎥 sᴛʀᴇᴀᴍ sᴜᴘᴘᴏʀᴛ : အသံရော ဗီဒီယိုပါ ရရှိနိုင်ခြင်း
+<emoji id="{PREMIUM_EMOJI_9}">➻</emoji> 🕒 𝟸𝟺/𝟽 ᴜᴘᴛɪᴍᴇ : အချိန်ပြည့် ဝန်ဆောင်မှုပေးခြင်း
+<emoji id="{PREMIUM_EMOJI_10}">➻</emoji> ⌨️ ᴘʟᴀʏ ᴄᴏᴍᴍᴇɴᴛꜱ : ᴘʟᴀʏ, ᴠᴘʟᴀʏ တိုဖြင့် ခိုင်းစေနိုင်ခြင်း
+<emoji id="{PREMIUM_EMOJI_11}">➻</emoji> ⚙️ ʙᴀsᴇᴅ ᴏɴ : ʏᴏᴜᴛᴜʙᴇ ᴀᴘɪ ကို အခြေခံထားခြင်း
 
-<emoji id="{PREMIUM_EMOJI_1}">😂</emoji> ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ <emoji id="{PREMIUM_EMOJI_3}">😙</emoji>."""
+
+<emoji id="{PREMIUM_EMOJI_1}">➻</emoji> အောက်က ခလုတ်လေးတွေကို နှိပ်ပြီး စမ်းသပ်ကြည့်နိုင်ပါတယ်ခင်ဗျာ။ <emoji id="{PREMIUM_EMOJI_3}">🤍</emoji>."""
 
         return await CallbackQuery.edit_message_media(
             InputMediaPhoto(
@@ -435,4 +436,5 @@ async def vote_change(client, CallbackQuery, _):
         )
     except MessageNotModified:
         return
+
 

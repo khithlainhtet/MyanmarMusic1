@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://files.catbox.moe/t2llak.jpg" width="100%" height="500">
+  <img src="https://files.catbox.moe/jebxwm.jpg" width="100%" height="500">
 </p>
 
 <div align="center">
@@ -18,9 +18,9 @@
 [![Support Group](https://img.shields.io/badge/Support%20Group-black?style=for-the-badge&logo=telegram)](https://t.me/myanmar_music_Bot2027)
 [![Owner](https://img.shields.io/badge/Owner-black?style=for-the-badge&logo=telegram)](https://t.me/HANTHAR_1999)
 
-[![Forks](https://img.shields.io/github/forks/khithlainhtet/MYANMARMUSIC?color=black&logo=github&logoColor=black&style=for-the-badge)](https://github.com/khithlainhtet/MYANMARMUSIC/fork)
-[![Stars](https://img.shields.io/github/stars/khithlainhtet/MYANMARMUSIC?color=black&logo=github&logoColor=black&style=for-the-badge)](https://github.com/khithlainhtet/MYANMARMUSIC/stargazers)
-[![Contributors](https://img.shields.io/github/contributors/khithlainhtet/MYANMARMUSIC?color=black&logo=github&logoColor=black&style=for-the-badge)](https://github.com/khithlainhtet/MYANMARMUSIC/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/khithlainhtet/MyanmarMusic1?color=black&logo=github&logoColor=black&style=for-the-badge)](https://github.com/khithlainhtet/MyanmarMusic1/fork)
+[![Stars](https://img.shields.io/github/stars/khithlainhtet/MyanmarMusic1?color=black&logo=github&logoColor=black&style=for-the-badge)](https://github.com/khithlainhtet/MyanmarMusic1/stargazers)
+[![Contributors](https://img.shields.io/github/contributors/khithlainhtet/MyanmarMusic1?color=black&logo=github&logoColor=black&style=for-the-badge)](https://github.com/khithlainhtet/MyanmarMusic1/graphs/contributors)
 
 </div>
 
@@ -32,9 +32,9 @@
 
 | **𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦** | **𝐃𝐞𝐩𝐥𝐨𝐲 𝐍𝐨𝐰** | **𝐈𝐧𝐟𝐨** |
 |:---:|:---:|:---:|
-| **𝐇𝐞𝐫𝐨𝐤𝐮** | [![Deploy](https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku)](https://dashboard.heroku.com/new?template=https://github.com/khithlainhtet/MYANMARMUSIC) | 𝐎𝐧𝐞-𝐂𝐥𝐢𝐜𝐤 𝐃𝐞𝐩𝐥𝐨𝐲 |
-| **𝐑𝐞𝐧𝐝𝐞𝐫** | [![Deploy](https://img.shields.io/badge/Deploy%20On%20Render-black?style=for-the-badge&logo=render)](https://render.com/deploy?repo=https://github.com/khithlainhtet/MYANMARMUSIC) | 𝟏𝟎𝟎% 𝐅𝐫𝐞𝐞 |
-| **𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐨𝐭** | [![View](https://img.shields.io/badge/Simple%20Bot-black?style=for-the-badge&logo=github)](https://github.com/khithlainhtet/MYANMARMUSIC) | 𝐋𝐢𝐠𝐡𝐭𝐰𝐞𝐢𝐠𝐡𝐭 |
+| **𝐇𝐞𝐫𝐨𝐤𝐮** | [![Deploy](https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku)](https://dashboard.heroku.com/new?template=https://github.com/khithlainhtet/MyanmarMusic1) | 𝐎𝐧𝐞-𝐂𝐥𝐢𝐜𝐤 𝐃𝐞𝐩𝐥𝐨𝐲 |
+| **𝐑𝐞𝐧𝐝𝐞𝐫** | [![Deploy](https://img.shields.io/badge/Deploy%20On%20Render-black?style=for-the-badge&logo=render)](https://render.com/deploy?repo=https://github.com/khithlainhtet/MyanmarMusic1) | 𝟏𝟎𝟎% 𝐅𝐫𝐞𝐞 |
+| **𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐨𝐭** | [![View](https://img.shields.io/badge/Simple%20Bot-black?style=for-the-badge&logo=github)](https://github.com/khithlainhtet/MyanmarMusic1) | 𝐋𝐢𝐠𝐡𝐭𝐰𝐞𝐢𝐠𝐡𝐭 |
 
 </div>
 
@@ -111,11 +111,11 @@ sudo apt-get install -y nodejs
 ### **𝐒𝐭𝐞𝐩 𝟒: 𝐂𝐥𝐨𝐧𝐞 𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲**
 
 ```bash
-git clone https://github.com/khithlainhtet/MYANMARMUSIC
+git clone https://github.com/khithlainhtet/MyanmarMusic1
 ```
 
 ```bash
-cd MYANMARMUSIC
+cd MyanmarMusic
 ```
 
 ---
@@ -195,7 +195,7 @@ nano .env
 
 **𝐌𝐞𝐭𝐡𝐨𝐝 𝟏:**
 ```bash
-python3 -m MYANMARMUSIC
+python3 -m MyanmarMusic1
 ```
 
 **𝐌𝐞𝐭𝐡𝐨𝐝 𝟐:**
@@ -216,7 +216,7 @@ bash start
 
 <div align="center">
 
-[![Deploy to Heroku](https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku)](https://dashboard.heroku.com/new?template=https://github.com/khithlainhtet/MYANMARMUSIC)
+[![Deploy to Heroku](https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku)](https://dashboard.heroku.com/new?template=https://github.com/khithlainhtet/MyanmarMusic1)
 
 </div>
 
@@ -279,10 +279,10 @@ bash start
 
 <div align="center">
 
-![Repo Size](https://img.shields.io/github/repo-size/khithlainhtet/MYANMARMUSIC?color=black&logo=github&logoColor=black&style=for-the-badge)
-![Issues](https://img.shields.io/github/issues/khithlainhtet/MYANMARMUSIC?color=black&logo=github&logoColor=black&style=for-the-badge)
-![License](https://img.shields.io/github/license/khithlainhtet/MYANMARMUSIC?color=black&logo=github&logoColor=black&style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/khithlainhtet/MYANMARMUSIC?color=blue&logo=github&logoColor=green&style=for-the-badge)
+![Repo Size](https://img.shields.io/github/repo-size/khithlainhtet/MyanmarMusic1?color=black&logo=github&logoColor=black&style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/khithlainhtet/MyanmarMusic1?color=black&logo=github&logoColor=black&style=for-the-badge)
+![License](https://img.shields.io/github/license/khithlainhtet/MyanmarMusic1?color=black&logo=github&logoColor=black&style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/khithlainhtet/MyanmarMusic1?color=blue&logo=github&logoColor=green&style=for-the-badge)
 
 </div>
 

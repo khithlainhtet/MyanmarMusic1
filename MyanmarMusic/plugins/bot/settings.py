@@ -109,7 +109,7 @@ async def settings_back_markup(client, CallbackQuery: CallbackQuery, _):
         # Callback ဖြစ်တဲ့အတွက် CallbackQuery.from_user.mention ကိုသုံးထားပါတယ်
         START_TEXT = f"""
 <emoji id="{PREMIUM_EMOJI_4}">➻</emoji> ʜᴇʏ ʙᴀʙʏ : {CallbackQuery.from_user.mention} <emoji id="{PREMIUM_EMOJI_1}">🤍</emoji>
-<emoji id="{PREMIUM_EMOJI_5}">➻</emoji> ကျွန်တော်ကတော့ { {app.mention} ဖြစ်ပါတယ် ,FERIEND တိုအတွက် အကောင်းဆုံးနဲ့ အကြည်လင်ဆုံး တေးဂီတတွေကို ဖျော်ဖြေပေးသွားပါမယ်ခင်ဗျာ<emoji id="{PREMIUM_EMOJI_2}">🤍</emoji>.
+<emoji id="{PREMIUM_EMOJI_5}">➻</emoji> ကျွန်တော်ကတော့ { {app.mention} ဖြစ်ပါတယ် FERIEND တိုအတွက် အကောင်းဆုံးနဲ့ အကြည်လင်ဆုံး တေးဂီတတွေကို ဖျော်ဖြေပေးသွားပါမယ်ခင်ဗျာ<emoji id="{PREMIUM_EMOJI_2}">🤍</emoji>.
 
 <emoji id="{PREMIUM_EMOJI_6}">🌟</emoji> ꜰᴇᴀᴛᴜʀᴇs (လုပ်ဆောင်ချက်များ)
 <emoji id="{PREMIUM_EMOJI_7}">➻</emoji>  🔊 ʜǫ ᴀᴜᴅɪᴏ : အဆင့်မြင့် အသံထွက်စနစ်
@@ -436,6 +436,7 @@ async def vote_change(client, CallbackQuery, _):
         )
     except MessageNotModified:
         return
+
 
 
 

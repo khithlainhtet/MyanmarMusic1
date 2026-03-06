@@ -17,7 +17,7 @@ API_KEY = getenv("API_KEY", "AIzaSyD8kGqfpnVb_u3_AyyhNY_Ui6_iw-8rVPI")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 
-STICKER_ID = "CAACAgUAAxkBAAEObxloHODEbJMRLG0DgnPYJ7bOUXc5QwACmRkAAg6V6FSBJlu8dUgdCTYE"
+STICKER_ID = "CAACAgUAAxkBAAIe72mqfmL7cPOdiA5TOr6Gsih09cVTAALgGQACfA2YVRl1rlBfNwT5HgQ"
 
 COOKIE_URL = getenv("https://batbin.me/minahassian")
 

@@ -111,12 +111,12 @@ async def settings_back_markup(client, CallbackQuery: CallbackQuery, _):
 <emoji id="{PREMIUM_EMOJI_4}">➻</emoji> ʜᴇʏ ʙᴀʙʏ : {CallbackQuery.from_user.mention} <emoji id="{PREMIUM_EMOJI_1}">🤍</emoji>
 <emoji id="{PREMIUM_EMOJI_5}">➻</emoji> ကျွန်တော်ကတော့ {app.mention}, FERIEND တိုအတွက် အကောင်းဆုံးနဲ့ အကြည်လင်ဆုံး တေးဂီတတွေကို ဖျော်ဖြေပေးသွားပါမယ်ခင်ဗျာ <emoji id="{PREMIUM_EMOJI_2}">🤍</emoji>.
 
-<emoji id="{PREMIUM_EMOJI_6}">🌟</emoji> ꜰᴇᴀᴛᴜʀᴇs (လုပ်ဆောင်ချက်များ)
-<emoji id="{PREMIUM_EMOJI_7}">➻</emoji>  🔊 ʜǫ ᴀᴜᴅɪᴏ : အဆင့်မြင့် အသံထွက်စနစ်
-<emoji id="{PREMIUM_EMOJI_8}">➻</emoji> 🎥 sᴛʀᴇᴀᴍ sᴜᴘᴘᴏʀᴛ : အသံရော ဗီဒီယိုပါ ရရှိနိုင်ခြင်း
-<emoji id="{PREMIUM_EMOJI_9}">➻</emoji> 🕒 𝟸𝟺/𝟽 ᴜᴘᴛɪᴍᴇ : အချိန်ပြည့် ဝန်ဆောင်မှုပေးခြင်း
-<emoji id="{PREMIUM_EMOJI_10}">➻</emoji> ⌨️ ᴘʟᴀʏ ᴄᴏᴍᴍᴇɴᴛꜱ : ᴘʟᴀʏ, ᴠᴘʟᴀʏ တိုဖြင့် ခိုင်းစေနိုင်ခြင်း
-<emoji id="{PREMIUM_EMOJI_11}">➻</emoji> ⚙️ ʙᴀsᴇᴅ ᴏɴ : ʏᴏᴜᴛᴜʙᴇ ᴀᴘɪ ကို အခြေခံထားခြင်း
+<emoji id="{PREMIUM_EMOJI_6}">🌟</emoji> ꜰᴇᴀᴛᴜʀᴇs 
+<emoji id="{PREMIUM_EMOJI_7}">➻</emoji>  ʜǫ ᴀᴜᴅɪᴏ 
+<emoji id="{PREMIUM_EMOJI_8}">➻</emoji>  sᴛʀᴇᴀᴍ sᴜᴘᴘᴏʀᴛ 
+<emoji id="{PREMIUM_EMOJI_9}">➻</emoji>  𝟸𝟺/𝟽 ᴜᴘᴛɪᴍᴇ 
+<emoji id="{PREMIUM_EMOJI_10}">➻</emoji> ᴘʟᴀʏ ᴄᴏᴍᴍᴇɴᴛꜱ : ᴘʟᴀʏ, ᴠᴘʟᴀʏ 
+<emoji id="{PREMIUM_EMOJI_11}">➻</emoji> ʙᴀsᴇᴅ ᴏɴ : ʏᴏᴜᴛᴜʙᴇ ᴀᴘɪ 
 
 
 <emoji id="{PREMIUM_EMOJI_1}">➻</emoji> အောက်က ခလုတ်လေးတွေကို နှိပ်ပြီး စမ်းသပ်ကြည့်နိုင်ပါတယ်ခင်ဗျာ <emoji id="{PREMIUM_EMOJI_3}">🤍</emoji>."""
@@ -436,6 +436,7 @@ async def vote_change(client, CallbackQuery, _):
         )
     except MessageNotModified:
         return
+
 
 
 
